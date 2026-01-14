@@ -9,7 +9,6 @@ pipeline{
         }
         stage("build"){
             steps{
-                sh 'ls'
                 sh 'cat hello.txt'
             }
         }
