@@ -9,7 +9,8 @@ pipeline{
         }
         stage("build"){
             steps{
-                echo "build completed"
+                sh 'ls'
+                sh 'cat hello.txt'
             }
         }
     }
